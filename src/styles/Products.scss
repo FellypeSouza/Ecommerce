@@ -1,0 +1,53 @@
+$font-size: 20px;
+
+.productsContainer{
+    max-width: 250vh;
+    margin: auto;
+}
+.products{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 100px;
+}
+@media(max-width: 1800px) {
+    .products{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media(max-width: 1400px) {
+    .products{
+        grid-template-columns: auto auto;
+    }
+}
+@media(max-width: 1000px) {
+    .products{
+        grid-template-columns: auto;
+    }
+}
+.products img {
+    cursor: pointer;
+}
+.newProducts{
+    max-width: 200vh;
+    margin: 6vh;
+    margin: auto;
+    margin-bottom: 6vh;
+    
+    h1{
+        font-size: $font-size;
+        margin-bottom: 1vh;
+        
+    }
+    h2{
+        color: gray;
+        margin-bottom: 1vh;
+        font-size: 17px;
+    }
+    img:hover{
+        border-radius: 2vh;
+        transition: all 250ms;
+    }
+    img:not(:hover){
+        transition: all 250ms;
+    }
+}

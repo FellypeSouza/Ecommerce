@@ -1,0 +1,19 @@
+.showcase{
+    display: flex;
+    justify-content: center;
+}
+
+#showcase-image{
+    width: 90vw;
+    height: 85vh;
+    margin: 2vh;
+    
+}
+.carrouselControls{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 50vh;
+    padding: 2vh;
+    cursor: pointer;
+}

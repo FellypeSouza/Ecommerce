@@ -1,0 +1,17 @@
+
+.brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10vh;
+
+}
+@media(max-width: 1700px) {
+    .brands{
+        flex-wrap: wrap;
+        
+    }
+}
+.brands img{
+    margin: 2vh;
+}

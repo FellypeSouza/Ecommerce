@@ -1,0 +1,19 @@
+@import './Products.scss';
+$font-size: 20px;
+
+.clothesContainer{
+    @extend .productsContainer;
+    h1{
+        font-size: $font-size;
+    }
+    .cloth{
+        @extend .newProducts;
+    }
+    .clothes{
+        @extend .products;
+    }
+}
+.cloth-title{
+    margin: 5rem 0 5rem 0;
+    text-align: center;
+}

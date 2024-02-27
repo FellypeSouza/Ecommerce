@@ -1,0 +1,37 @@
+$font-size: 0.90rem;
+$content-margin: 1rem;
+$content-padding: 2rem;
+
+.footerContainer{
+    background-color: black;
+    margin-top: 10rem;
+    h1{
+        color: #fff;
+        padding-bottom: $content-margin;
+        font-size: $font-size;
+        cursor: pointer;
+    }
+    h1:hover{
+        text-decoration: underline;
+    }
+}
+footer{
+    hr{
+        max-width: 80%;
+        margin: auto;
+    }
+}
+.footerInfo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: $content-padding;
+}
+.footerLinks{
+    text-align: center;
+    margin-top: 3rem;
+    img{
+        margin: 1rem;
+        cursor: pointer;
+    }
+}
