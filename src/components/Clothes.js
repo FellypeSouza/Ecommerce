@@ -4,7 +4,6 @@ import Nikecloth from "./Nikecloth";
 import ProductsStars from "./ProductsStars";
 
 function Clothes(){
-    const width = 300;
     return(
         <section className="clothesContainer">
             <h1 className="cloth-title">Nossas Roupas mais acessadas:</h1>

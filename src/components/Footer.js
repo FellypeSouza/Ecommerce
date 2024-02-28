@@ -32,9 +32,9 @@ function Footer(){
                 </section>
                 <hr/>
                 <section className='footerLinks'>
-                    <img src={facebook_icon} width={width}/>
-                    <img src={phone_icon} width={width}/>
-                    <img src={info_icon} width={width}/>
+                    <img src={facebook_icon} width={width} alt='facebook'/>
+                    <img src={phone_icon} width={width} alt='phone'/>
+                    <img src={info_icon} width={width} alt='info'/>
                     <h1>© Todos os direitos reservados, 2024</h1>
                 </section>
             </footer>
