@@ -6,6 +6,7 @@ import close_menu from '../images/close-menu.jpg';
 function Nav(){
     const width = 40;
     const menuApp = document.getElementById("menuMobile");
+    const navLinks = document.querySelectorAll('a');
     
     function closeMenu(){
         menuApp.style.display = 'none';
@@ -13,15 +14,17 @@ function Nav(){
     function createMenu(){
         menuApp.style.display = 'block';
     }
+
+    
     
     return(
         <section className="nav">
             <nav id="desktopNav">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Marcas</a></li>
-                    <li><a href="#">Lançamentos</a></li>
-                    <li><a href="#">Entre em contato</a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#marcas">Marcas</a></li>
+                    <li><a href="#lancamentos">Lançamentos</a></li>
+                    <li><a href="#contato">Entre em contato</a></li>
                 </ul>
             <img src={open_menu} width={width} className="open-menu" id="openMenu" onClick={createMenu}/>
             </nav>

@@ -3,12 +3,13 @@ import '../styles/Footer.scss';
 import facebook_icon from '../images/facebook-icon.png';
 import phone_icon from '../images/phone-icon.png';
 import info_icon from '../images/info-icon.png';
+import arrow_button2 from '../images/arrow_button2.png';
 
 function Footer(){
     const width = 40;
     return(
         <section className='footerContainer'>
-            <footer>
+            <footer id='contato'>
                 <section className='footerInfo'>
                     <section className='footerName'>
                         <h1>Ecommerce Page</h1>
@@ -38,6 +39,7 @@ function Footer(){
                     <h1>© Todos os direitos reservados, 2024</h1>
                 </section>
             </footer>
+            <a href='#inicio' id='footerButton'><img src={arrow_button2} width={width}/></a>
         </section>
     );
 }

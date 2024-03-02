@@ -19,6 +19,6 @@ export default function Nikeshoe(){
         setActualShoe((actualShoe + 1) % imageShoes.length);
     }
     return(
-        <img src={imageShoes[actualShoe]} alt={`Imagem ${actualShoe + 1}`} width={width} className="nikeShoe" onMouseOver={hoverShoe} />
+        <img src={imageShoes[actualShoe]} alt={`Imagem ${actualShoe + 1}`} width={width} className="nikeShoe" onMouseOver={hoverShoe} id="lancamentos"/>
     );
 }
