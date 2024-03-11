@@ -24,23 +24,23 @@ function App() {
     });
 });
   return (
-    <section className="App">
-      <Offer></Offer>
-      <Nav></Nav>
-      <Showcase></Showcase>
-      <Brands></Brands>
-      <Products></Products>
-      <Clothes></Clothes>
-      <Footer></Footer>
-      <a
+      <section className="App">
+        <Offer/>
+        <Nav/>
+        <Showcase/>
+        <Brands/>
+        <Products/>
+        <Clothes/>
+        <Footer/>
+        <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
+          >
           learn react
         </a>
-    </section>
+      </section>
   );
 }
 export default App;

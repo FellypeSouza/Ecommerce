@@ -21,7 +21,7 @@ function Nav(){
         <section className="nav">
             <nav id="desktopNav">
                 <ul>
-                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="/inicio">Início</a></li>
                     <li><a href="#marcas">Marcas</a></li>
                     <li><a href="#lancamentos">Lançamentos</a></li>
                     <li><a href="#contato">Entre em contato</a></li>

@@ -1,0 +1,42 @@
+$font-size: 30px;
+.NikeShoeRoute{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    h1{
+        font-size: $font-size;
+    }
+}
+.NikeShoeImages{
+    display: grid;
+    grid-template-columns: auto auto;
+    img{
+        cursor: pointer;
+        width: 700px;
+        margin: 0.2rem;
+    }
+}
+.NikeShoeInfo{
+    margin: 50px;
+    h1,h2{
+        line-height: 1.5;
+    }
+    button{
+        display: grid;
+        width: 20rem;
+        padding: 1.5rem;
+        border-radius: 50px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        margin-top: 1rem;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    a{
+        position: absolute;
+        padding-top: 50px;
+    }
+}

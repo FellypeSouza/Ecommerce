@@ -8,56 +8,72 @@ function Products(){
         <section className="productsContainer">
             <section className="products">
                 <section className="newProducts">
-                    <Nikeshoe></Nikeshoe>
+                    <a href="/teste">
+                        <Nikeshoe></Nikeshoe>
+                    </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
                     <h2>Casual - Masculino</h2>
                     <h1>R$ 999,99</h1>
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <Nikeshoe></Nikeshoe>
+                    <a href="/teste">
+                        <Nikeshoe></Nikeshoe>
+                    </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
                     <h2>Casual - Masculino</h2>
                     <h1>R$ 999,99</h1>
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <Nikeshoe></Nikeshoe>
+                    <a href="/teste">
+                        <Nikeshoe></Nikeshoe>
+                    </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
                     <h2>Casual - Masculino</h2>
                     <h1>R$ 999,99</h1>
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <Nikeshoe></Nikeshoe>
+                    <a href="/teste">
+                        <Nikeshoe></Nikeshoe>
+                    </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
                     <h2>Casual - Masculino</h2>
                     <h1>R$ 999,99</h1>
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <Nikeshoe></Nikeshoe>
+                    <a href="/teste">
+                        <Nikeshoe></Nikeshoe>
+                    </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
                     <h2>Casual - Masculino</h2>
                     <h1>R$ 999,99</h1>
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <Nikeshoe></Nikeshoe>
+                    <a href="/teste">
+                        <Nikeshoe></Nikeshoe>
+                    </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
                     <h2>Casual - Masculino</h2>
                     <h1>R$ 999,99</h1>
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <Nikeshoe></Nikeshoe>
+                    <a href="/teste">
+                        <Nikeshoe></Nikeshoe>
+                    </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
                     <h2>Casual - Masculino</h2>
                     <h1>R$ 999,99</h1>
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <Nikeshoe></Nikeshoe>
+                    <a href="/teste">
+                        <Nikeshoe></Nikeshoe>
+                    </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
                     <h2>Casual - Masculino</h2>
                     <h1>R$ 999,99</h1>

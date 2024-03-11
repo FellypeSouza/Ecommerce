@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.scss';
 import App from './App';
+import NikeShoeRoute from './components/Routes/NikeShoeRoute';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter,Routes, Route} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/inicio" element={<App/>}/>
+        <Route path='/teste' element={<NikeShoeRoute/>}/>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
