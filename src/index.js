@@ -13,8 +13,8 @@ root.render(
     <HashRouter>
       <Routes>
         <Route path="Ecommerce" element={<App/>}/>
-        <Route path='NikeShoe' element={<NikeShoeRoute/>}/>
-        <Route path='NikeCloth' element={<NikeClothRoute/>}/>
+        <Route path='/NikeShoe' element={<NikeShoeRoute/>}/>
+        <Route path='/NikeCloth' element={<NikeClothRoute/>}/>
       </Routes>
     </HashRouter>
   </React.StrictMode>

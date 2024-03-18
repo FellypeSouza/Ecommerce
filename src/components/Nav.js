@@ -14,16 +14,13 @@ function Nav(){
     function createMenu(){
         menuApp.style.display = 'block';
     }
-
-    
-    
     return(
         <section className="nav">
             <nav id="desktopNav">
                 <ul>
-                    <li><a href="/MainPage">Início</a></li>
-                    <li><a href="MainPage#marcas">Marcas</a></li>
-                    <li><a href="MainPage#lancamentos">Lançamentos</a></li>
+                    <li><a href="nav">Início</a></li>
+                    <li><a href="#marcas">Marcas</a></li>
+                    <li><a href="#lancamentos">Lançamentos</a></li>
                     <li><a href="#contato">Entre em contato</a></li>
                 </ul>
             <img src={open_menu} width={width} className="open-menu" id="openMenu" onClick={createMenu}/>
@@ -31,10 +28,10 @@ function Nav(){
             <section className="appMenu" id="menuMobile">
                 <img src={close_menu} width={width} className="close-menu" id="close-menu" onClick={closeMenu}/>
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Marcas</a></li>
-                    <li><a href="#">Lançamentos</a></li>
-                    <li><a href="#">Entre em contato</a></li>
+                    <li><a href="#nav">Início</a></li>
+                    <li><a href="#marcas">Marcas</a></li>
+                    <li><a href="#lancamentos">Lançamentos</a></li>
+                    <li><a href="#contato">Entre em contato</a></li>
                 </ul>
             </section>
         </section>
