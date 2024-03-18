@@ -12,9 +12,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="Ecommerce/MainPage" element={<App/>}/>
-        <Route path='Ecommerce/NikeShoe' element={<NikeShoeRoute/>}/>
-        <Route path='Ecommerce/NikeCloth' element={<NikeClothRoute/>}/>
+        <Route path="Ecommerce" element={<App/>}/>
+        <Route path='NikeShoe' element={<NikeShoeRoute/>}/>
+        <Route path='NikeCloth' element={<NikeClothRoute/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

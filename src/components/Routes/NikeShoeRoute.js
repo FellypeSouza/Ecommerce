@@ -38,7 +38,7 @@ export default function NikeShoeRoute(){
                     <button>Adicionar ao carrinho</button>
                     <button>Salvar aos favoritos</button>
                     <button>Comprar</button>
-                    <a href="MainPage">Voltar</a>
+                    <a href="Ecommerce">Voltar</a>
                 </section>
             </section>
             <Footer/>

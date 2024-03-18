@@ -2,7 +2,6 @@ import React from "react";
 import Nav from "../Nav";
 import Offer from "../Offer";
 import Nikecloth from "../Nikecloth";
-import Clothes from "../Clothes";
 import '../../styles/NikeClothRoute.scss';
 import ProductsStars from "../ProductsStars";
 import Footer from "../Footer";
@@ -25,7 +24,7 @@ export default function NikeClothRoute(){
                         <button>Adicionar ao carrinho</button>
                         <button>Salvar aos favoritos</button>
                         <button>Comprar</button>
-                        <a href="MainPage">Voltar</a>
+                        <a href="Ecommerce">Voltar</a>
                     </section>
                 </section>
             </section>
