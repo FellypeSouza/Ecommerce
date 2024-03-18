@@ -11,18 +11,18 @@ function App() {
   document.querySelectorAll('a').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
-
+  
         // Obtém o destino da rolagem a partir do atributo href
         const targetId = this.getAttribute('href').substring(1);
         const targetElement = document.getElementById(targetId);
-
+  
         // Rola suavemente até o destino
         window.scrollTo({
             top: targetElement.offsetTop - document.querySelector('nav').offsetHeight,
             behavior: 'smooth'
         });
     });
-});
+  });
   return (
       <section className="App">
         <Offer/>

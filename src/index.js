@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.scss';
 import App from './App';
 import NikeShoeRoute from './components/Routes/NikeShoeRoute';
+import NikeClothRoute from './components/Routes/NikeClothRoute';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter,Routes, Route} from 'react-router-dom';
 
@@ -11,8 +12,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App/>}/>
-        <Route path='/teste' element={<NikeShoeRoute/>}/>
+        <Route path="Ecommerce/MainPage" element={<App/>}/>
+        <Route path='Ecommerce/NikeShoe' element={<NikeShoeRoute/>}/>
+        <Route path='Ecommerce/NikeCloth' element={<NikeClothRoute/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -17,6 +17,13 @@ $font-size: 30px;
         width: 700px;
         margin: 0.2rem;
     }
+    img:hover{
+        border-radius: 2vh;
+        transition: all 250ms;
+    }
+    img:not(:hover){
+        transition: all 250ms;
+    }
 }
 .NikeShoeInfo{
     margin: 50px;
@@ -34,6 +41,15 @@ $font-size: 30px;
         margin-top: 1rem;
         cursor: pointer;
         font-size: 15px;
+    }
+    button:hover{
+        background-color: white;
+        color: #000;
+        font-weight: bold;
+        transition: all 250ms;
+    }
+    button:not(:hover){
+        transition: all 250ms;
     }
     a{
         position: absolute;

@@ -21,9 +21,9 @@ function Nav(){
         <section className="nav">
             <nav id="desktopNav">
                 <ul>
-                    <li><a href="/">Início</a></li>
-                    <li><a href="#marcas">Marcas</a></li>
-                    <li><a href="#lancamentos">Lançamentos</a></li>
+                    <li><a href="/MainPage">Início</a></li>
+                    <li><a href="MainPage#marcas">Marcas</a></li>
+                    <li><a href="MainPage#lancamentos">Lançamentos</a></li>
                     <li><a href="#contato">Entre em contato</a></li>
                 </ul>
             <img src={open_menu} width={width} className="open-menu" id="openMenu" onClick={createMenu}/>

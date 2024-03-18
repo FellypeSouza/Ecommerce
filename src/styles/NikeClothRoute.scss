@@ -1,0 +1,11 @@
+@import './NikeShoeRoute.scss';
+
+.NikeClothRoute{
+    @extend .NikeShoeRoute
+}
+.NikeClothImages{
+    @extend .NikeShoeImages
+}
+.NikeClothInfo{
+    @extend .NikeShoeInfo
+}
