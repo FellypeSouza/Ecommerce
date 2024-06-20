@@ -24,7 +24,7 @@ export default function NikeClothRoute(){
                         <button>Adicionar ao carrinho</button>
                         <button>Salvar aos favoritos</button>
                         <button>Comprar</button>
-                        <a href="Ecommerce">Voltar</a>
+                        <a href="/">Voltar</a>
                     </section>
                 </section>
             </section>

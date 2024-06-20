@@ -5,18 +5,25 @@ import App from './App';
 import NikeShoeRoute from './components/Routes/NikeShoeRoute';
 import NikeClothRoute from './components/Routes/NikeClothRoute';
 import reportWebVitals from './reportWebVitals';
-import {Routes, Route, HashRouter} from 'react-router-dom';
+import {Routes, Route, HashRouter, BrowserRouter} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    {/* <HashRouter>
       <Routes>
-        <Route path="Ecommerce" element={<App/>}/>
-        <Route path='/NikeShoe' element={<NikeShoeRoute/>}/>
-        <Route path='/NikeCloth' element={<NikeClothRoute/>}/>
+        <Route path="/" element={<App/>}/>
+        <Route path="shoe" element={<NikeShoeRoute/>}/>
+        <Route path="/" element={<NikeClothRoute/>}/>
       </Routes>
-    </HashRouter>
+    </HashRouter> */}
+    <BrowserRouter>
+      <Routes>
+        <Route Component={App} path="/" exact/>
+        <Route Component={NikeClothRoute} path='/nikecloth' exact/>
+        <Route Component={NikeShoeRoute} path='/nikeshoe' exact/>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

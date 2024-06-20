@@ -9,7 +9,7 @@ function Clothes(){
             <h1 className="cloth-title">Nossas Roupas mais acessadas:</h1>
             <section className="clothes">
                 <section className="cloth">
-                    <a href="NikeCloth">
+                    <a href="/nikecloth">
                         <Nikecloth></Nikecloth>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -18,7 +18,7 @@ function Clothes(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="cloth">
-                    <a href="NikeCloth">
+                    <a href="/nikecloth">
                         <Nikecloth></Nikecloth>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -27,7 +27,7 @@ function Clothes(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="cloth">
-                    <a href="NikeCloth">
+                    <a href="/nikecloth">
                         <Nikecloth></Nikecloth>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -36,7 +36,7 @@ function Clothes(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="cloth">
-                    <a href="NikeCloth">
+                    <a href="/nikecloth">
                         <Nikecloth></Nikecloth>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -45,7 +45,7 @@ function Clothes(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="cloth">
-                    <a href="NikeCloth">
+                    <a href="/nikecloth">
                         <Nikecloth></Nikecloth>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -54,7 +54,7 @@ function Clothes(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="cloth">
-                    <a href="NikeCloth">
+                    <a href="/nikecloth">
                         <Nikecloth></Nikecloth>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -63,7 +63,7 @@ function Clothes(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="cloth">
-                    <a href="NikeCloth">
+                    <a href="/nikecloth">
                         <Nikecloth></Nikecloth>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -72,7 +72,7 @@ function Clothes(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="cloth">
-                    <a href="NikeCloth">
+                    <a href="/nikecloth">
                         <Nikecloth></Nikecloth>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>

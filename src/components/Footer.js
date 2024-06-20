@@ -7,6 +7,7 @@ import arrow_button2 from '../images/arrow_button2.png';
 
 function Footer(){
     const width = 40;
+
     return(
         <section className='footerContainer'>
             <footer id='contato'>
@@ -39,7 +40,7 @@ function Footer(){
                     <h1>© Todos os direitos reservados, 2024</h1>
                 </section>
             </footer>
-            <a href='#inicio' id='footerButton'><img src={arrow_button2} width={width}/></a>
+            <a href='/#nav' id='footerButton'><img src={arrow_button2} width={width}/></a>
         </section>
     );
 }

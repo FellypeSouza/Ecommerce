@@ -11,7 +11,7 @@ import logo_fila from '../images/logo_fila.png';
 function Brands(){
     return(
             <section className="brandsContainer">
-                <section className="brands" id="marcas">
+                <section className="brands" id="/#marcas">
                     <img src={logo_nike} width={200} alt="nike"/>
                     <img src={logo_adidas} width={200} alt="adidas"/>
                     <img src={logo_oakley} width={200} alt="oakley"/>

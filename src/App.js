@@ -24,7 +24,7 @@ function App() {
     });
   });
   return (
-      <section className="App">
+    <section className="App">
         <Offer/>
         <Nav/>
         <Showcase/>

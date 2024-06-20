@@ -8,7 +8,7 @@ function Products(){
         <section className="productsContainer">
             <section className="products">
                 <section className="newProducts">
-                    <a href="NikeShoe">
+                    <a href="/nikeshoe">
                         <Nikeshoe></Nikeshoe>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -17,7 +17,7 @@ function Products(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <a href="NikeShoe">
+                    <a href="/nikeshoe">
                         <Nikeshoe></Nikeshoe>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -26,7 +26,7 @@ function Products(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <a href="NikeShoe">
+                    <a href="/nikeshoe">
                         <Nikeshoe></Nikeshoe>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -35,7 +35,7 @@ function Products(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <a href="NikeShoe">
+                    <a href="/nikeshoe">
                         <Nikeshoe></Nikeshoe>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -44,7 +44,7 @@ function Products(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <a href="NikeShoe">
+                    <a href="/nikeshoe">
                         <Nikeshoe></Nikeshoe>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -53,7 +53,7 @@ function Products(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <a href="NikeShoe">
+                    <a href="/nikeshoe">
                         <Nikeshoe></Nikeshoe>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -62,7 +62,7 @@ function Products(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <a href="NikeShoe">
+                    <a href="/nikeshoe">
                         <Nikeshoe></Nikeshoe>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
@@ -71,7 +71,7 @@ function Products(){
                     <ProductsStars></ProductsStars>
                 </section>
                 <section className="newProducts">
-                    <a href="NikeShoe">
+                    <a href="/nikeshoe">
                         <Nikeshoe></Nikeshoe>
                     </a>
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
