@@ -9,13 +9,12 @@ import {Routes, Route, HashRouter, BrowserRouter} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const currentUrl = window.location.href;
-console.log(currentUrl);
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route Component={App} path="Ecommerce/" exact/>
-        <Route Component={NikeClothRoute} path='Ecommerce/nikecloth' exact/>
+        <Route Component={NikeClothRoute} path='Ecommerce/nikecloth'/>
         <Route Component={NikeShoeRoute} path='Ecommerce/nikeshoe' exact/>
       </Routes>
     </BrowserRouter>
