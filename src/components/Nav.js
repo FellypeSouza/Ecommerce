@@ -8,22 +8,6 @@ function Nav(){
     const menuApp = document.getElementById("menuMobile");
     const navLinks = document.querySelectorAll('a');
     const marcas = document.getElementById("marcas");
-
-    document.querySelectorAll('a').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-      
-            // Obtém o destino da rolagem a partir do atributo href
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-      
-            // Rola suavemente até o destino
-            window.scrollTo({
-                top: targetElement.offsetTop - document.querySelector('nav').offsetHeight,
-                behavior: 'smooth'
-            });
-        });
-      });
     
     function closeMenu(){
         menuApp.style.display = 'none';
@@ -35,7 +19,7 @@ function Nav(){
         <section className="nav">
             <nav id="desktopNav">
                 <ul>
-                    <li><a href="/">Início</a></li>
+                    <li><a href="/Ecommerce">Início</a></li>
                     <li><a href="#marcas">Marcas</a></li>
                     <li><a href="#lancamentos">Lançamentos</a></li>
                     <li><a href="#contato">Entre em contato</a></li>

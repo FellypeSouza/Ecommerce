@@ -7,25 +7,11 @@ import ProductsStars from "../ProductsStars";
 import Footer from "../Footer";
 
 export default function NikeShoeRoute(){
-    document.querySelectorAll('a').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-    
-            // Obtém o destino da rolagem a partir do atributo href
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-    
-            // Rola suavemente até o destino
-            window.scrollTo({
-                top: targetElement.offsetTop - document.querySelector('nav').offsetHeight,
-                behavior: 'smooth'
-            });
-        });
-    });
     return(
         <section className="NikeShoeRouteContainer">
             <Offer/>
             <Nav/>
+            <a className="backMainPage" href="/Ecommerce">Voltar</a>
             <section className="NikeShoeRoute">
                 <section className="NikeShoeImages">
                     <Nikeshoe/>
@@ -33,12 +19,17 @@ export default function NikeShoeRoute(){
                 <section className="NikeShoeInfo">
                     <h1>Tênis Nike Dunk Low Retro Panda </h1>
                     <h2>Casual - Masculino</h2>
-                    <h1>R$ 999,99</h1>
                     <ProductsStars></ProductsStars>
+                    <h1>R$ 854,99</h1>
+                    <h4>Baixe o Nike App e ganhe 05% de desconto com o cupom PRIMEIRACOMPRA, na primeira compra feita no app</h4>
                     <button>Adicionar ao carrinho</button>
                     <button>Salvar aos favoritos</button>
                     <button>Comprar</button>
-                    <a href="/">Voltar</a>
+                    <h4>Originalmente criado para as quadras, o Dunk mais tarde foi para as ruas - e como se costuma dizer, o resto é história. 
+                        Mais de 35 anos após sua estreia, a silhueta ainda oferece um estilo ousado e desafiador Agora, o tênis OG do basquete universitário 
+                        retorna com camadas sobrepostas em couro premium e color blocking tradicional. O conforto fica por conta da tecnologia mais atual em 
+                        calçados, enquanto uma combinação clássica de preto e branco remete ao legado das quadras.
+                    </h4>
                 </section>
             </section>
             <Footer/>

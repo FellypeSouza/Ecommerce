@@ -8,20 +8,15 @@ import reportWebVitals from './reportWebVitals';
 import {Routes, Route, HashRouter, BrowserRouter} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const currentUrl = window.location.href;
+console.log(currentUrl);
 root.render(
   <React.StrictMode>
-    {/* <HashRouter>
-      <Routes>
-        <Route path="/" element={<App/>}/>
-        <Route path="shoe" element={<NikeShoeRoute/>}/>
-        <Route path="/" element={<NikeClothRoute/>}/>
-      </Routes>
-    </HashRouter> */}
     <BrowserRouter>
       <Routes>
-        <Route Component={App} path="/" exact/>
-        <Route Component={NikeClothRoute} path='/nikecloth' exact/>
-        <Route Component={NikeShoeRoute} path='/nikeshoe' exact/>
+        <Route Component={App} path="Ecommerce/" exact/>
+        <Route Component={NikeClothRoute} path='Ecommerce/nikecloth' exact/>
+        <Route Component={NikeShoeRoute} path='Ecommerce/nikeshoe' exact/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

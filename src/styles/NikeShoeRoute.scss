@@ -1,4 +1,11 @@
 $font-size: 30px;
+.NikeShoeRouteContainer{
+    .backMainPage{
+        margin-top: 1rem;
+        padding: 1rem;
+    }
+}
+
 .NikeShoeRoute{
     max-width: 1300px;
     margin: auto;
@@ -27,8 +34,11 @@ $font-size: 30px;
 }
 .NikeShoeInfo{
     margin: 50px;
-    h1,h2{
+    h1,h2,h4{
         line-height: 1.5;
+    }
+    h4{
+        margin-top: 1rem;
     }
     button{
         display: grid;

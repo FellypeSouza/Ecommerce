@@ -40,7 +40,7 @@ function Footer(){
                     <h1>© Todos os direitos reservados, 2024</h1>
                 </section>
             </footer>
-            <a href='/#nav' id='footerButton'><img src={arrow_button2} width={width}/></a>
+            <a href='/Ecommerce' id='footerButton'><img src={arrow_button2} width={width}/></a>
         </section>
     );
 }

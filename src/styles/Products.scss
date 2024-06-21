@@ -2,15 +2,14 @@ $font-size: 20px;
 a{
     text-shadow: none;
 }
-
 .productsContainer{
-    max-width: 250vh;
+    max-width: 225vh;
     margin: auto;
 }
 .products{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin: 100px;
+
 }
 @media(max-width: 1800px) {
     .products{
