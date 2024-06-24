@@ -5,10 +5,10 @@ import App from './App';
 import NikeShoeRoute from './components/Routes/NikeShoeRoute';
 import NikeClothRoute from './components/Routes/NikeClothRoute';
 import reportWebVitals from './reportWebVitals';
-import {Routes, Route, HashRouter, BrowserRouter} from 'react-router-dom';
+import {Routes, Route, BrowserRouter} from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const currentUrl = window.location.href;
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>

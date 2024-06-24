@@ -6,7 +6,7 @@ import info_icon from '../images/info-icon.png';
 import arrow_button2 from '../images/arrow_button2.png';
 
 function Footer(){
-    const width = 40;
+    const width = 30;
 
     return(
         <section className='footerContainer'>
@@ -40,7 +40,7 @@ function Footer(){
                     <h1>© Todos os direitos reservados, 2024</h1>
                 </section>
             </footer>
-            <a href='/Ecommerce' id='footerButton'><img src={arrow_button2} width={width}/></a>
+            <a href='#nav' id='footerButton'><img src={arrow_button2} width={width}/></a>
         </section>
     );
 }

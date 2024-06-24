@@ -3,7 +3,7 @@ import ProductsStars from "./ProductsStars";
 import Nikeshoe from "./Nikeshoe";
 import '../styles/Products.scss';
 
-function Products(){
+function Products(props){
     return(
         <section className="productsContainer">
             <section className="products">

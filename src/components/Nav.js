@@ -16,10 +16,10 @@ function Nav(){
         menuApp.style.display = 'block';
     }
     return(
-        <section className="nav">
+        <section className="nav" id="nav">
             <nav id="desktopNav">
                 <ul>
-                    <li><a href="/Ecommerce">Início</a></li>
+                    <li><a href="#nav">Início</a></li>
                     <li><a href="#marcas">Marcas</a></li>
                     <li><a href="#lancamentos">Lançamentos</a></li>
                     <li><a href="#contato">Entre em contato</a></li>

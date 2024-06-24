@@ -15,6 +15,6 @@ export default function Nikecloth(){
         setActualCloth((actualCloth + 1) % imageCloths.length);
     }
     return(
-        <img src={imageCloths[actualCloth]} alt={`Imagem ${actualCloth + 1}`} width={width} className="nikeCloth" onMouseOver={hoverCloth} />
+        <img src={imageCloths[actualCloth]} alt={`Imagem ${actualCloth + 1}`} width={width} className="nikeCloth" onMouseOver={hoverCloth} onClick={hoverCloth}/>
     );
 }
