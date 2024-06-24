@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ecommerce/static/css/main.9cd0ff12.css",
-    "main.js": "/Ecommerce/static/js/main.700c8020.js",
+    "main.js": "/Ecommerce/static/js/main.29c5919f.js",
     "static/js/453.0cc0ac16.chunk.js": "/Ecommerce/static/js/453.0cc0ac16.chunk.js",
     "static/media/image_tenis1.jpg": "/Ecommerce/static/media/image_tenis1.c7d0e1f8305b9296e38b.jpg",
     "static/media/image_tenis2.jpg": "/Ecommerce/static/media/image_tenis2.54fcb2acd13f45010f2d.jpg",
@@ -24,11 +24,11 @@
     "static/media/cloth3.avif": "/Ecommerce/static/media/cloth3.d5ace4d681bd6903ff6f.avif",
     "index.html": "/Ecommerce/index.html",
     "main.9cd0ff12.css.map": "/Ecommerce/static/css/main.9cd0ff12.css.map",
-    "main.700c8020.js.map": "/Ecommerce/static/js/main.700c8020.js.map",
+    "main.29c5919f.js.map": "/Ecommerce/static/js/main.29c5919f.js.map",
     "453.0cc0ac16.chunk.js.map": "/Ecommerce/static/js/453.0cc0ac16.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9cd0ff12.css",
-    "static/js/main.700c8020.js"
+    "static/js/main.29c5919f.js"
   ]
 }
